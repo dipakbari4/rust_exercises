@@ -3,6 +3,10 @@
  */
 fn main() {
   for index in 0..256 {
-    println!("{} -> {}", index, index as u8 as char);
+    if(index%5==0) {
+      println!("{} -> {}", index, index as u8 as char);
+    } else {
+      print!("{} -> {}\t", index, index as u8 as char);
+    }
   }
 }
