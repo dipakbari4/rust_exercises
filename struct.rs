@@ -11,7 +11,7 @@
      fractional: f32,
      character: char,
      five_bytes: [u8; 5],
-   };
+   }
 
    
    let data = SomeData {
